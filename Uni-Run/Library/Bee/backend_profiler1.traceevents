@@ -1,0 +1,463 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1674823973452921, "dur":1449, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823973454374, "dur":35, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1674823973454421, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1674823973454437, "dur":515, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1674823973454995, "dur":726, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823973455721, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974874803, "dur":184, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974874987, "dur":68, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875055, "dur":45, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875100, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875111, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875115, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875123, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875125, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875136, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875139, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875146, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875149, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875157, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875160, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875171, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875174, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875180, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875191, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974875195, "dur":1882, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1674823973455357, "dur":399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973455757, "dur":7575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973463347, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1674823973463587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973465296, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1674823973466969, "dur":198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674823973467238, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973467249, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1674823973468536, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674823973468726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973469259, "dur":1139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1674823973470616, "dur":697, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674823973471317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973471349, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1674823973473104, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1674823973473606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973473613, "dur":3877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1674823973477719, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674823973477754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973477762, "dur":201253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run.exe" }}
+,{ "pid":12345, "tid":1, "ts":1674823973679033, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973679090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973679097, "dur":34250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973713377, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973713400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973713408, "dur":48800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973762224, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973762243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973762250, "dur":53244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973815518, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973815541, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973815550, "dur":71342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973886912, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973886943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973886952, "dur":27594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973914566, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973914587, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973914596, "dur":41580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973956198, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973956219, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973956229, "dur":29803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973986052, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823973986073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823973986082, "dur":44488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974030592, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974030613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974030622, "dur":48598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974079242, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974079269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974079281, "dur":34630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974113933, "dur":1434, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974115372, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974115383, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974117177, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974117204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974117213, "dur":149161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974266394, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974266414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974266422, "dur":134808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974401269, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974401304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974401318, "dur":245100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1674823974646437, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674823974646457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1674823974646463, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1674823974650365, "dur":224444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973455581, "dur":314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973455895, "dur":7444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973463346, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1674823973463869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973472289, "dur":39056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1674823973511562, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973511595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973511604, "dur":167735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973679357, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973679378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973679385, "dur":29994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973709400, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973709431, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973709439, "dur":78551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973788011, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973788034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973788043, "dur":137302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973925365, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973925414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973925422, "dur":28598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973954040, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823973954061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823973954071, "dur":143916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974098007, "dur":386750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974484763, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974484774, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974486347, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974486367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974486375, "dur":149428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974635819, "dur":2407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974638232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974638243, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1674823974640412, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1674823974640434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974640462, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1674823974641804, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1674823974641824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974641832, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1674823974643965, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1674823974644222, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974644229, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1674823974645434, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1674823974645452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974645459, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1674823974647076, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1674823974647094, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1674823974647100, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1674823974649150, "dur":225654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973455478, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973455850, "dur":7486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973463346, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674823973463726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973471343, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1674823973473620, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973473837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973473842, "dur":38575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973512631, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973512658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973512666, "dur":167295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973679978, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973679999, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973680006, "dur":30291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973710318, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973710341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973710349, "dur":113868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973824238, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973824259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973824268, "dur":45643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973869931, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973869953, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973869961, "dur":44848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973914827, "dur":79148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973993981, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973993992, "dur":5162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973999179, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823973999207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823973999270, "dur":163618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974162906, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974162926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823974162933, "dur":214059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974377019, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974377067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823974377083, "dur":150152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974527256, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974527278, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1674823974527288, "dur":144979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1674823974672286, "dur":202528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973455752, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973455753, "dur":7553, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973463346, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1674823973463350, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973463386, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1674823973463396, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973464301, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1674823973466756, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674823973466978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973467032, "dur":1184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1674823973468403, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674823973468614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973468622, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674823973469818, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674823973470005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973470030, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1674823973471256, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674823973471595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973471606, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1674823973473378, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973473561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973473586, "dur":8926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973482776, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973482813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973482847, "dur":195984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973678853, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973678879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973678892, "dur":45467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973724380, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973724402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973724412, "dur":164258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973888694, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973888715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973888724, "dur":50679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973939423, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973939444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973939453, "dur":49641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973989115, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823973989137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823973989147, "dur":30169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974019336, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974019362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974019371, "dur":36206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974055596, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974055617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974055625, "dur":54739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974110386, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974110408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974110491, "dur":213694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974324205, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974324226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974324235, "dur":56079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974380334, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974380361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974380370, "dur":49772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974430166, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974430188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1674823974430197, "dur":243260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1674823974673478, "dur":201368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973455966, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973455966, "dur":7368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973463346, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674823973463742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973471484, "dur":2396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1674823973475100, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1674823973475396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973475429, "dur":10034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1674823973486002, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973486034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973486045, "dur":193079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973679171, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973679435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973685839, "dur":45631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973731515, "dur":201266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973932787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973932797, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973934700, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973934722, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973934731, "dur":38864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973973613, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823973973632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823973973640, "dur":81105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974054765, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974054786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823974054796, "dur":169962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974224787, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974224837, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823974224847, "dur":264412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974489278, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974489300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823974489309, "dur":145897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974635226, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974635247, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1674823974635255, "dur":187839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1674823974823112, "dur":51707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973456079, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973456080, "dur":7283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973463363, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674823973463618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973465588, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1674823973467073, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973467348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973467355, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973468661, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973468865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973469061, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973471405, "dur":2133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973473541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973473551, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1674823973477874, "dur":1101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1674823973478979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973479243, "dur":6732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1674823973486205, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973486239, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973486249, "dur":192683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973678953, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973678975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973678981, "dur":32411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973711414, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973711436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973711444, "dur":23982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973735447, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973735468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973735477, "dur":26044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973761542, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973761564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973761669, "dur":29179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973790869, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973790891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973790900, "dur":54712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973845638, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973845661, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973845670, "dur":26091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973871786, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973871817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973871827, "dur":27027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973898878, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973898904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973898913, "dur":26002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973925012, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973925038, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973925046, "dur":29019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973954085, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973954106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973954113, "dur":29803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973983936, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823973983966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823973983972, "dur":37537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974021529, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974021550, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974021559, "dur":26136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974047716, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974047737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974047769, "dur":57157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974104947, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974104969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974104978, "dur":57211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974162209, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974162229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974162239, "dur":123361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974285621, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974285643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974285652, "dur":134270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974419940, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974419960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1674823974419969, "dur":263059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1674823974683050, "dur":191793, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973456259, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973456260, "dur":7080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973463346, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674823973463762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973471779, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1674823973475185, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973475473, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973475479, "dur":3008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/NVUnityPlugin.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973478720, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973478747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973479015, "dur":199892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973678924, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973678950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973678958, "dur":128908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973807888, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973807917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973807926, "dur":24490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973832434, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973832454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973832463, "dur":37615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973870095, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973870114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973870121, "dur":35782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973905927, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973905951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973905961, "dur":66991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973972975, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973972997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973973006, "dur":26371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973999394, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823973999414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823973999421, "dur":31937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974031378, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974031398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823974031406, "dur":31606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974063032, "dur":70918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974133956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823974133966, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974135923, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974135942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823974135949, "dur":401414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974537480, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974537563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823974537600, "dur":60096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974597715, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974597735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1674823974597744, "dur":276981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1674823974874743, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1674823974874745, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973456400, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973456401, "dur":6932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973463346, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1674823973463653, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973471551, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1674823973473127, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973473339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973473544, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973477059, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973477286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973477294, "dur":15140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/nvngx_dlss.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973492667, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973492702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973492711, "dur":186150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973678884, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973678923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973678931, "dur":35685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973714639, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973714662, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973714670, "dur":64403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973779097, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973779121, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973779164, "dur":62410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973841595, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973841645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973841656, "dur":25226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973866901, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973866922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973866932, "dur":26537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973893490, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973893511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973893520, "dur":62672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973956211, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973956232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973956239, "dur":27457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973983719, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823973983741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823973983749, "dur":38164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974021931, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974021951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974021958, "dur":57466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974079442, "dur":87796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974167243, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974167254, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974168923, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974168944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974168953, "dur":272735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974441706, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974441728, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974441737, "dur":52357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974494118, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974494142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974494152, "dur":146363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1674823974640537, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1674823974640557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974640563, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1674823974643887, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1674823974643909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974643917, "dur":1239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1674823974645173, "dur":971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1674823974646148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974646157, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1674823974647129, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1674823974647309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1674823974647316, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Uni-Run/Uni-Run_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1674823974649026, "dur":225797, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1674823974878631, "dur":1579, "ph":"X", "name": "ProfilerWriteOutput" }
+,

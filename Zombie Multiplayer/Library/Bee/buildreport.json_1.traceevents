@@ -1,0 +1,769 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675259322064984, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259322066108, "dur": 37831, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259322104164, "dur": 173276, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259322277457, "dur": 10951, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259329389025, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259329389227, "dur": 11776, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259329401004, "dur": 64842, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259329465875, "dur": 459183, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259329925060, "dur": 1176800, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259331101863, "dur": 3356, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259331105527, "dur": 18, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675259329438138, "dur":1143, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329439290, "dur":254, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675259329439589, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675259329439606, "dur":420, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675259329440069, "dur":627, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329440696, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447020, "dur":107, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447127, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447167, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447226, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447234, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447238, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447244, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447246, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447253, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447255, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447261, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447263, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447269, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447271, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447278, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447280, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447286, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447287, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329447308, "dur":902, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675259329440311, "dur":428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329440739, "dur":6286, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329440386, "dur":371, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329440757, "dur":6270, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329440351, "dur":396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329440747, "dur":6288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329440459, "dur":305, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329440764, "dur":6279, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329440578, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329440770, "dur":6252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329440615, "dur":163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329440778, "dur":6247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329440715, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329440716, "dur":6297, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329440748, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329440749, "dur":6294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329449065, "dur":234, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675259331105584, "dur": 195, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1675259329608966, "dur": 309473, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329609829, "dur": 46010, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329899555, "dur": 8881, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329908439, "dur": 9995, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329909079, "dur": 8909, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329922426, "dur": 1125, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1675259329921758, "dur": 1814, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259331105814, "dur": 148, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675259329976369, "dur":1125, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329977499, "dur":212, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675259329977772, "dur":20, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675259329977794, "dur":432, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675259329978249, "dur":622, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259329978871, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079667, "dur":164, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079831, "dur":112, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079943, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079947, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079955, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079957, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079962, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079965, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079971, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079973, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079978, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079980, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079986, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331079988, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331080012, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331080014, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331080022, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331080029, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331080058, "dur":1357, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675259329978464, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329978956, "dur":5875, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329984840, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675259329984843, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329984904, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675259329984907, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329984938, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329985410, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675259329986762, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675259329986883, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329987389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329989497, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675259329990770, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675259329991490, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329991519, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329991526, "dur":1699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1675259329993375, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259329993623, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329993666, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259329993846, "dur":69504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330063522, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330063545, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330063575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330063984, "dur":65719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330129720, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330129744, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330129774, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330129782, "dur":57167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330186965, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330186980, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330187008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330187016, "dur":20009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330207041, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330207057, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330207089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330207097, "dur":117133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330324246, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330324259, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330324286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330324293, "dur":34029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330358340, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330358356, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330358390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330358398, "dur":18798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330377210, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330377224, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330377271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330377278, "dur":44814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330422108, "dur":221270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330643379, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330643508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330643517, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330644556, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330644570, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330644598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330644604, "dur":161553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330806173, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330806193, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330806223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330806231, "dur":98747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330904995, "dur":79194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330984190, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330984233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675259330984239, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675259330984883, "dur":94791, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329978834, "dur":152, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329978986, "dur":5849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329984840, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1675259329985150, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329985196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329989560, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1675259329990931, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675259329991102, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329991129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329991155, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675259329992935, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1675259329993361, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329993388, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259329993394, "dur":70619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1675259330064184, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330064206, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330064230, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330064246, "dur":50044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330114309, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330114328, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330114359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330114367, "dur":30186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330144575, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330144595, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330144630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330144640, "dur":42402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330187056, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330187070, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330187096, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330187102, "dur":30321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330217439, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330217462, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330217493, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330217500, "dur":19725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330237242, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330237257, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330237287, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330237294, "dur":28282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330265593, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330265608, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330265637, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330265645, "dur":22757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330288418, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330288433, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330288462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330288469, "dur":35610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330324096, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330324111, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330324139, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330324147, "dur":20458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330344620, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330344635, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330344679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330344687, "dur":57668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330402369, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330402385, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330402412, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330402417, "dur":32484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330434916, "dur":199328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330634244, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330634303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330634312, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330635338, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330635354, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330635384, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330635390, "dur":189679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330825085, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330825100, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330825131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330825156, "dur":39321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330864493, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330864508, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330864538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675259330864546, "dur":101222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675259330965784, "dur":113895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329978601, "dur":376, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329978977, "dur":5911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329984888, "dur":544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675259329985433, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329985538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329989594, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675259329991530, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675259329991721, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329991750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329991758, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1675259329993622, "dur":872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675259329994495, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329994523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259329994528, "dur":69179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675259330063720, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330063738, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330063940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330064032, "dur":29766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330093818, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330093838, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330093866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330093875, "dur":32786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330126675, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330126688, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330126729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330126736, "dur":19020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330145770, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330145785, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330145829, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330145834, "dur":118369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330264223, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330264240, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330264272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330264279, "dur":33102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330297397, "dur":70556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330367954, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368018, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Monetization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368819, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368835, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330368873, "dur":21545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330390434, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330390451, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330390480, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330390488, "dur":23503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330414007, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330414023, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330414052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330414060, "dur":23901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330437977, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330437992, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330438021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330438028, "dur":40623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.Tracker.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330478667, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330478685, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330478713, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330478721, "dur":63378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330542115, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330542129, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330542157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330542165, "dur":77076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330619256, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330619271, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330619299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330619307, "dur":33453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330652776, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330652790, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330652817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330652825, "dur":38247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330691089, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330691104, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330691150, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330691159, "dur":104876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330796054, "dur":111902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330907956, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330908016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330908025, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonRealtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675259330908851, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1675259330908885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330908903, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1675259330909915, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330909941, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330910459, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330911191, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330911214, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330911249, "dur":791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912058, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912104, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912737, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912759, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330912766, "dur":647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330913429, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1675259330913447, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330913453, "dur":909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1675259330914379, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.caw" }}
+,{ "pid":12345, "tid":3, "ts":1675259330914399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330914407, "dur":785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/d3/d3413a236b69d9debfa70de5092f1b8f.caw" }}
+,{ "pid":12345, "tid":3, "ts":1675259330915208, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330915228, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330915431, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330916143, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330916166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330916188, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.rsc.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330917031, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330917050, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330917057, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918212, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918242, "dur":684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918944, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330918973, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.ecm" }}
+,{ "pid":12345, "tid":3, "ts":1675259330919811, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.caw" }}
+,{ "pid":12345, "tid":3, "ts":1675259330919830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330919859, "dur":695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/aa/aa29dc44dc7a6dd423d34c11c25ee772.caw" }}
+,{ "pid":12345, "tid":3, "ts":1675259330920570, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330920590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330920806, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.vis" }}
+,{ "pid":12345, "tid":3, "ts":1675259330921518, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330921537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330921543, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.rgb" }}
+,{ "pid":12345, "tid":3, "ts":1675259330922354, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330922377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330922405, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.iws.sse" }}
+,{ "pid":12345, "tid":3, "ts":1675259330923889, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675259330923911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330923917, "dur":2237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675259330926174, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675259330926198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330926208, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675259330927130, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1675259330927270, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330927301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330927308, "dur":683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1675259330928004, "dur":1037, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1675259330929042, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330929103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330929115, "dur":922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1675259330930056, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675259330930078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330930088, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.resource" }}
+,{ "pid":12345, "tid":3, "ts":1675259330931002, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675259330931019, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330931024, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675259330934990, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675259330935021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330935042, "dur":1025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936087, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936112, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936121, "dur":782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936918, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330936970, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1675259330937922, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1675259330937948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330937957, "dur":841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1675259330938814, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1675259330938971, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330939001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675259330939008, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1675259330939767, "dur":139920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329978689, "dur":292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329978981, "dur":5878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329984880, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675259329985098, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329985129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329989774, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675259329991047, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675259329991197, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329991237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329991683, "dur":1173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675259329993044, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1675259329993335, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329993382, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259329993392, "dur":72318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1675259330065865, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330065893, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330065929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330065956, "dur":42811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330108784, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330108807, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330108834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330108900, "dur":91560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330200478, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330200493, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330200523, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330200530, "dur":45500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330246047, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330246062, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330246091, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330246099, "dur":20447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330266561, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330266582, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330266618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330266625, "dur":19296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330285940, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330285956, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330285987, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330285993, "dur":43355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330329367, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330329382, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330329414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330329423, "dur":19054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330348492, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330348507, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330348537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330348542, "dur":28048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330376608, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330376732, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330376998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330377006, "dur":25057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330402081, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330402097, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330402126, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330402133, "dur":124791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330526940, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330526955, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330526985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330526993, "dur":155978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330682985, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330682999, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330683029, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330683036, "dur":105542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330788593, "dur":133230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330921824, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330921860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330921866, "dur":1933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.Demos.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675259330923814, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.caw" }}
+,{ "pid":12345, "tid":4, "ts":1675259330923834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330923842, "dur":659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.caw" }}
+,{ "pid":12345, "tid":4, "ts":1675259330924515, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675259330924552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330924558, "dur":1972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675259330926548, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675259330926571, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330926577, "dur":4288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675259330930881, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675259330930900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330930906, "dur":3881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675259330934807, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1675259330934828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675259330934836, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1675259330938968, "dur":140698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329978973, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329978974, "dur":5915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329984889, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675259329985115, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329985144, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329989747, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1675259329990994, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675259329991176, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329991204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329991214, "dur":3331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1675259329994705, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675259329994870, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329994925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259329995119, "dur":82410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1675259330077682, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330077701, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330077729, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330077736, "dur":39808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330117559, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330117579, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330117610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330117618, "dur":21946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330139836, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330139865, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330140351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330140418, "dur":22482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330162917, "dur":175732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330338650, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330338703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330338711, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330339700, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330339715, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330339745, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330339751, "dur":18756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330358521, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330358534, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330358593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330358599, "dur":105922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330464536, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330464557, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330464594, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330464601, "dur":235959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330700576, "dur":128431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829008, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829067, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.Utilities.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829851, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829865, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829891, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675259330829896, "dur":249713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675259331079622, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1675259331079623, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329979101, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329979101, "dur":5786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329984888, "dur":595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1675259329985483, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329985524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329989583, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1675259329991449, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675259329991612, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329991657, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329991663, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1675259329993580, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675259329993776, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329993801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259329993805, "dur":69529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1675259330063527, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330063548, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330063610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330063988, "dur":22966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330086972, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330086999, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330087031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330087042, "dur":23200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330110258, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330110276, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330110303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330110311, "dur":25526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330135854, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330135870, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330135898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330135905, "dur":72439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330208359, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330208378, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330208409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330208416, "dur":39408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330247840, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330247855, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330247882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330247889, "dur":23418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330271326, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330271343, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330271392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330271400, "dur":35643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330307060, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330307076, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330307180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330307189, "dur":19673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330326879, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330326895, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330326926, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330326933, "dur":90193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330417143, "dur":67776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330484920, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330484970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330484978, "dur":1028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330486028, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330486044, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330486100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330486107, "dur":87912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330574035, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330574050, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330574098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330574107, "dur":32619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330606743, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330606757, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330606785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330606792, "dur":100116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330706923, "dur":168132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330875056, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330875113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259330875121, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonUnityNetworking.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259330875973, "dur":129030, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259331005004, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259331005054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675259331005060, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675259331005862, "dur":73806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329979219, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329979219, "dur":5670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329984889, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675259329985429, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329985470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329989575, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675259329991364, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1675259329991556, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329991581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329991634, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1675259329993517, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259329993732, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329993758, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259329993762, "dur":110290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330104221, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330104243, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330104276, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330104284, "dur":21476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330125776, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330125791, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330125822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330125830, "dur":19737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330145582, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330145599, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330145646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330145653, "dur":45698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330191368, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330191388, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330191417, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330191424, "dur":37203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330228644, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330228659, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330228686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330228694, "dur":38551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330267262, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330267276, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330267305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330267312, "dur":18581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330285910, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330285927, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330285958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330285966, "dur":21111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330307091, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330307178, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330307212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330307218, "dur":25902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330333136, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330333150, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330333178, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330333185, "dur":21031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330354232, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330354247, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330354275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330354283, "dur":22920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330377222, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330377242, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330377271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330377278, "dur":32796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330410093, "dur":49567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330459660, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330459731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330459740, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Advertisements.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330460703, "dur":726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330461429, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330461466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330461473, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.DataPrivacy.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330462167, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330462181, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330462207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330462214, "dur":88120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330550348, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330550362, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330550389, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330550396, "dur":80230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330630643, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330630656, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330630685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330630692, "dur":168067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330798774, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330798788, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330798834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330798843, "dur":122473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Photon3Unity3D.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675259330921330, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1675259330921354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330921383, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.rsc.sse" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923021, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923065, "dur":833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/GI/level1/5c/5c981dc76fea96c41db5a90512124302.ecm" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923911, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675259330923939, "dur":18805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1675259330942761, "dur":136907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329979283, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329979283, "dur":5597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329984880, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675259329985501, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329985564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329989577, "dur":1349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675259329991070, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675259329991234, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329991288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329991542, "dur":1674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1675259329993372, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259329993581, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329993616, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259329993821, "dur":69453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330063472, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330063497, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330063531, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330063981, "dur":153848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/websocket-sharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330217851, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330217868, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330217895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330217901, "dur":45522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330263440, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330263455, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330263486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330263514, "dur":18915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330282448, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330282465, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330282498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330282507, "dur":47149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330329671, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330329683, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330329715, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330329720, "dur":18292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330348030, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330348045, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330348075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330348082, "dur":25822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330373921, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330373936, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330373965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330373973, "dur":22698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330396686, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330396701, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330396730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330396738, "dur":42318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330439071, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330439085, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330439114, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330439121, "dur":96614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Unity.Analytics.StandardEvents.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330535751, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330535766, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330535911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330535919, "dur":141708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330677645, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330677667, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330677708, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330677715, "dur":118362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330796093, "dur":59928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856021, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856078, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/PhotonChat.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856842, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856857, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856884, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675259330856890, "dur":176494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/C#/kdk4905/game/Zombie Multiplayer/Zombie Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675259331033395, "dur":46272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675259331082359, "dur":2542, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675259331105994, "dur": 603, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675259331105518, "dur": 1093, "ph": "X", "name": "Write chrome-trace events", "args": {} },

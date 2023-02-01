@@ -118,6 +118,7 @@ public class Zombie : LivingEntity
                     }
                 }
             }
+
             // 0.25초 주기로 처리 반복
             yield return new WaitForSeconds(0.25f);
         }
